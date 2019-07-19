@@ -5,11 +5,17 @@ public class ReverseInteger {
 	public static void main(String[] args) {
 
 
-		int a=01234;
+		int a=12340;
+		int sum =0;
 		while(a>0) {
-			System.out.print(a%10);
+			sum = a%10;
+			System.out.print(sum);
 			a/=10;
 		}
+		
+		 int num = 3423456;
+		 System.out.println("\n"+new StringBuffer(String.valueOf(num)).reverse());
+		
 
 
 	}
